@@ -59,11 +59,6 @@ public:
 		newLongtitude += 0 + rand() % 15 - 5;
 	}
 
-	void setCoordinates(double longtitude, double latitude) {
-		this->longtitude = longtitude;
-		this->latitude = latitude;
-	}
-
 	double getLongtitude() {
 		return longtitude;
 	}
